@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .main-container {
+    background-color: #f7f7f7;
+    /* max-width: 1300px; */
+    /* width: 100%; */
+    min-height: 100vh;
+    /* padding: 30px; */
+    background-image: url('https://img.pikbest.com/backgrounds/20190411/fresh-food-poster-design-background_1820364.jpg!bw700') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    /* width: 100%; */
+  }
+  
+  
+  .search-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+ 
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+  
+  }
+  input:focus {
+    outline: none;
+  }
+   
+  .search-box {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 400px;
+    border: none;
+  }
+  
+  .btn-search {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-left: 0px;
+    cursor: pointer;
+    border: none;
+  } 
+  
+  .recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 17%;
+    background-color: whitesmoke;
+    margin: 15px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    box-shadow: grey;
+  }
+  
+  .card-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 10px;
+    
+  }
+  .meal{
+    text-decoration:none!important;
+    color: black;
+  }
+  .category {
+    color: #a1a1a1;
+    text-decoration: none!important;
+  }
+.detail-menu{
+  text-decoration: none!important;
+  padding-left: 45px;
+}
+a{
+  text-decoration: none!important;
+}
